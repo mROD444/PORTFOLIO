@@ -1,0 +1,437 @@
+body,
+html {
+    background-color: #DED4E8;
+    height: 100%;
+    margin: 0%;
+}
+
+
+nav li {
+    display: inline;
+    margin: 30px;
+    font-size: 37px;
+
+}
+
+nav ul {
+    background-color: #DED4E8;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 75px;
+    padding-top: 35px;
+    text-align: center;
+
+}
+
+nav {
+    display: block;
+    color: #C7395F;
+    border-style:ridge;
+    border-color:#b79cc7;
+    border-width: 20px;
+}
+
+nav a {
+    color: #E8BA40;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-shadow: 5px 3px black;
+
+}
+
+nav a:hover {
+    color: white;
+}
+
+.hero-image {
+    background-image: url("../image/canva.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    background-position: center;
+    position: relative;
+    border-radius: 2%;
+
+}
+
+
+.hero-text {
+    color: #C7395F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 5px 5px #000000;
+
+}
+
+
+#profile-image{
+    width: 85%;
+    border-radius: 12%;
+    border: 10px solid #E8BA40;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(91, 66, 112) 9px 12px;
+
+}
+#main {
+    width: 75%;
+    float:left;
+    height:100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+
+}
+
+#side{
+    width:18%;
+    float:right;
+    height: 100%;
+    padding: 20px;
+}
+
+#profile{
+    text-align: center;
+
+}
+
+.side-article ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#profile h2{
+    display:inline;
+    text-align: center;
+
+}
+
+#profile-details{
+    text-align: center;
+}
+
+.side-article, .main-articles{
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.side-article{
+    background-image: url("../image/canva.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 32px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    color: #C7395F;
+}
+
+.main-articles{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+form{
+    margin-top: 20px;
+
+}
+
+textarea, input{
+    background-color:#C6B8CF;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-article h1{
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    height: 5%;
+    background-image: url("../image/canva.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+footer div{
+    color:#C7395F;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: left;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+main{
+    overflow: auto;
+}
+
+button{
+    border-radius: 45%;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    font-style:oblique;
+    text-align: center;
+    color:white;
+    background-color:#A08BAD;
+}
+#user_pics{
+    display: inline-block;
+}
+#friends, #grey{
+    height: 300px;
+    border-radius: 15%;
+    border-color: #E8BA40;
+    border-style: solid;
+    border-width: 9px;
+    position: sticky;
+    
+}
+
+.main-center{
+    text-align: left;
+    width: 100%;
+}
+
+.more{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#more-pic{
+    border-radius: 50%;
+    height: 600px;
+    border-width: 20px;
+    border-color:#56306d;
+    border-style: solid;
+}
+
+.more a{
+    text-decoration: none;
+    
+}
+
+.main-articles h1{
+    color:#C7395F ;
+    font-size: 130px;
+    font-family:fantasy;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.main-articles strong{
+    color: #C7395F;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-articles{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: rgb(34, 34, 34);
+    
+}
+
+figcaption{
+    font-size: 20px;
+    
+}
+.gallery{
+    height:400px;
+}
+#friends{
+    margin-top:5px;
+    border-color:#E8BA40;
+    border-radius: 20%;
+    box-shadow: rgb(91, 66, 112) 9px 12px;
+    height:350px;
+}
+#grey{
+    float:left;
+    margin:150px;
+    margin-top: -10px;
+    width:300px;
+    height:auto;
+    border-color:#E8BA40;
+    border-radius: 20%;
+    box-shadow: rgb(91, 66, 112) 9px 12px;
+}
+
+
+
+#profile-details a{
+    text-decoration: none;
+    color: #C7395F;
+}
+
+#profile-details a:hover{
+    color: white;
+}
+
+#Phone:hover{
+    color: white;
+}
+
+#addy:hover{
+    color: white;
+}
+
+#insta:hover{
+    color: white;
+}
+
+#twitter:hover{
+    color:white;
+}
+
+#main-two{
+    border-width: 17px;
+    border-style:double;
+    border-radius:50px;
+    border-color: #b79cc7;
+}
+#main-two h1{
+    color:#C7395F ;
+    font-size: 100px;
+    font-family:fantasy;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+ .main-center p{
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: rgb(34, 34, 34);
+    padding-top: 20px;
+    padding-left: 20px;
+    margin:50px;
+}
+
+.main-center h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #56306d;
+    margin:80px;
+    padding: 0%;
+}
+
+#spotify{
+    text-align: center;
+}
+
+.tiktok-embed{
+    margin-left: 90px;
+    padding-left: 0%;
+}
+
+#clip{
+    text-align: center;
+}
+
+#main{
+    border-width: 17px;
+    border-style:double;
+    border-radius:50px;
+    border-color: #b79cc7;
+}
+
+#right{
+    float: right;
+}
+
+sub{
+    font-size: 40px;
+    font-family: fantasy;
+    color: #C7395F;
+    padding-left: 25%;
+}
+
+#main-two ul{
+    font-size: 32px;
+    padding-left: 15%;
+    padding-right: 60%;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    line-height:1.6;
+}
+
+#barbie{
+    float:right;
+    max-height: 570px;
+}
+
+#girl{
+    height: 500px;
+    margin-top: -750px;
+    margin-left: 60%;
+}
+
+#big-picture h1{
+    text-align: left;
+    margin-left:12% ;
+    
+}
+
+#more-pic{
+    border-color:#E8BA40;
+    border-radius: 20%;
+    box-shadow: rgb(91, 66, 112) 9px 12px;
+}
+
+.contact-info{
+    background-image: url("../image/canva.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 32px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-style: oblique;
+    color: #C7395F;
+    font-weight:800;
+}
+
+.contact-info h2{
+    font-weight: 1000;
+}
+
+#address{
+    text-decoration: none;
+}
+
+.contact-info a:hover{
+    color:white;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: #C7395F;
+}
+
+.side-article a:hover{
+    color:white;
+}
+
+.side-article a{
+    text-decoration: none;
+    color: #C7395F;
+}
